@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamepedia</title>
+
+    <!--Linking CSS file-->
+    <link rel="stylesheet" href="/css_files/styles.css">
+    <!--Linking Swiper CSS file-->
+    <link rel="stylesheet" href="/css_files/swiper-bundle.min.css">
+    <!--We need icons for boxes we are going to make-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Let's start with the header-->
+    <header>
+        <!--Navigation bar-->
+        <div class="nav container">
+            <!--Here comes our Logo-->
+            <a href="/html_files/index.html" class="logo">Game<span>pedia</span></a>
+            <!--Navbar icons-->
+            <div class="nav-icons">
+                <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
+                <i class='bx bxs-download'></i>
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            
+            <!--Menu-->
+            <div class="menu">
+                <img src="/resources/images/nfs unbound (clip art 2).jpg" alt="">
+                <div class="navbar">
+                    <li><a href="/html_files/index.html">Home</a><span class="menuItemArrow"><i class='bx bx-chevron-left'></i></span></li>
+                    <li><a href="#trending">Trending Games</a><span class="menuItemArrow"><i class='bx bx-chevron-left'></i></span></li>
+                    <li><a href="#new">New Games</a><span class="menuItemArrow"><i class='bx bx-chevron-left'></i></span></li>
+                    <li><a href="#android">Android Games</a><span class="menuItemArrow"><i class='bx bx-chevron-left'></i></span></li>
+                    <li><a href="/html_files/myStore.html">Our merchandise</a><span class="menuItemArrow"><i class='bx bx-chevron-left'></i></span></li>
+                </div>
+            </div>
+
+            <!--Notifications-->
+            <div class="notification">
+                <div class="notification-box">
+                    <i class='bx bxs-check-circle'></i>
+                    <p>Congratulations, Gamer. Your game downloaded successfully!</p>
+                </div>
+                <div class="notification-box box-color">
+                    <i class='bx bxs-x-circle'></i>
+                    <p>Changes could not be applied.</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    
+
+    <!--A FREAKIN HOME SECTION--> 
+    <section class="home container" id="home">
+        <img src="/resources/images/home.png" alt="">
+        <div class="home-text">
+            <h1>The Future is <br> HERE</h1>
+            <a href="/html_files/cyberpunk_page.html" class="btn">Read more</a>
+        </div>
+    </section> 
+    <!--OBV AN END TO HOME SECTION-->
+
+    <!--Trendy Section's Start-->
+    <section class="trending container" id="trending">
+        <div class="heading">
+            <i class='bx bxs-hot'></i>
+            <h2>Trending Games</h2>
+        </div>
+
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+                <!--1st Slide-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/resources/images/cyber_punk_mytake_2.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Cyberpunk 2077</h2>
+                            <h3>Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.2</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <!--2nd Slide-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/resources/images/God_of_War_Ragnarök_cover.jpg" alt="">
+                        <div class="box-text">
+                            <h2>God of War</h2>
+                            <h3>Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                 <!--3rd Slide-->
+                 <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/resources/images/elden ring my take.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Elden Ring</h2>
+                            <h3>Survival</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>4.6</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                 <!--4th Slide-->
+                 <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/resources/images/trending6.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Dying Light 2</h2>
+                            <h3>Survival</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>3.8</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                 <!--5th Slide-->
+                 <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/resources/images/rey msterio wwe 2k22.png" alt="">
+                        <div class="box-text">
+                            <h2>WWE 2K22</h2>
+                            <h3>Fighting</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>3.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                 <!--6th Slide-->
+                 <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/resources/images/trending7.png" alt="">
+                        <div class="box-text">
+                            <h2>Halo Infinte</h2>
+                            <h3>Survival</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>3.8</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                 <!--7th Slide-->
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/resources/images/trending3.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Assassin's Creed</h2>
+                            <h3>Survival</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <span>3.8</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+    <!--Trendy Section's End-->
+    
+    <!--New Games Section-->
+
+    <section class="new container" id="new">
+        <div class="heading">
+            <i class='bx bxs-game'></i>
+            <h2>New Games</h2>
+        </div>
+
+        <!--Now for the content-->
+        <div class="new-content">
+            <!--The First Box-->
+            <div class="box">
+                <img src="/resources/images/gotham-knights (take 4).jpg" alt="">
+                <div class="box-text">
+                    <h2>Gotham Knights</h2>
+                    <h3>Adventure</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>3.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                    </div> 
+                </div>
+            </div>
+
+              <!--The Second Box-->
+              <div class="box">
+                <img src="/resources/images/new2.jpg" alt="">
+                <div class="box-text">
+                    <h2>Call of Duty: Mobile</h2>
+                    <h3>Shooting</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>3.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                    </div> 
+                </div>
+            </div>
+
+            <!--The Third Box-->
+            <div class="box">
+                <img src="/resources/images/lego starwars skywalker saga.jpg" alt="">
+                <div class="box-text">
+                    <h2>LEGO Starwars: The Skywalker Saga</h2>
+                    <h3>Adventure</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>3.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                    </div> 
+                </div>
+            </div>
+
+            <!--The Fourth Box-->
+            <div class="box">
+                <img src="/resources/images/horizon (take 1).jpg" alt="">
+                <div class="box-text">
+                    <h2>Horizon Forbidden West</h2>
+                    <h3>Adventure</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>3.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                    </div> 
+                </div>
+            </div>
+
+            <!--The Fifth Box-->
+            <div class="box">
+                <img src="/resources/images/new8.jpg" alt="">
+                <div class="box-text">
+                    <h2>Marvel Contest of Champions</h2>
+                    <h3>Fighting</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>3.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                    </div> 
+                </div>
+            </div>
+
+            <!--The Sixth Box-->
+            <div class="box">
+                <img src="/resources/images/returnal take 1.jpg" alt="">
+                <div class="box-text">
+                    <h2>Returnal</h2>
+                    <h3>Adventure</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>3.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                    </div> 
+                </div>
+            </div>
+
+            <!--The Seventh Box-->
+            <div class="box">
+                <img src="/resources/images/forza take 2.png" alt="">
+                <div class="box-text">
+                    <h2>Forza Horizon 5</h2>
+                    <h3>Racing</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>3.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                    </div> 
+                </div>
+            </div>
+
+            <!--The Eigth Box-->
+            <div class="box">
+                <img src="/resources/images/hitman take 4.jpg" alt="">
+                <div class="box-text">
+                    <h2>Hitman 3</h2>
+                    <h3>Stealth</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <span>3.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class='bx bx-message-detail'></i></a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="next-page">
+            <a href="/html_files/nextPage.html">Next Page</a>
+        </div>
+    </section>
+    <!--New Games' Section's End-->
+
+    <!--THE COPYRIGTH SECTION-->
+    <footer>
+       <!-- <div class="copyright container">
+            <a href="#" class="logo">Game<span>Pedia</span></a>
+            <p>&#169; Weedy All Rights Reserved</p>
+        </div>-->
+        <div class="footer-content">
+            <h3>Game<span>Pedia</span></h3>
+            <p>All Rights Reserved</p>
+            <ul class="socials">
+                <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-google-plus-circle' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-discord-alt' ></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; copyright 2022 designed by <span>Zain</span></p>
+        </div>
+    </footer>
+    <!--Ending the COPYRIGHT SECTION-->
+
+
+
+
+
+
+    <!--Linking the Swiper File-->
+    <script src="/js_files/swiper-bundle.min.js"></script>
+    <!--Let's link our JS file-->
+    <script src="/js_files/index.js"></script>
+</body>
+</html>
